@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            change the color of p element that are siblings of div element to red.
+        </title>
+        <style>
+            div ~ p{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <span><a href="../index.html" style="margin-bottom: 50px;">back to Homepage</a></span>
+        <div>
+            <p>This is a paragraph inside a div element</p>
+            <P>This is another paragraph inside a div element</P>
+            <span><p>This is anoother paragraph inside a span element</p></span>
+        </div>
+        <p>This is a paragraph not inside a div element</p>
+        <p>This is another paragraph not inside a div element</p>
+    </body>
+</html>
